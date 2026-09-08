@@ -1,0 +1,1080 @@
+{
+  "aeroportos": [
+    {
+      "codigo": "GRU",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "codigo": "CGH",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "codigo": "VCP",
+      "cidade": "Campinas",
+      "estado": "SP"
+    },
+    {
+      "codigo": "GIG",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "codigo": "SDU",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "codigo": "BSB",
+      "cidade": "Brasília",
+      "estado": "DF"
+    },
+    {
+      "codigo": "CNF",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    {
+      "codigo": "POA",
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    {
+      "codigo": "CWB",
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    {
+      "codigo": "FLN",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "SSA",
+      "cidade": "Salvador",
+      "estado": "BA"
+    },
+    {
+      "codigo": "REC",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    {
+      "codigo": "FOR",
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    {
+      "codigo": "BEL",
+      "cidade": "Belém",
+      "estado": "PA"
+    },
+    {
+      "codigo": "MAO",
+      "cidade": "Manaus",
+      "estado": "AM"
+    },
+    {
+      "codigo": "GYN",
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    {
+      "codigo": "VIX",
+      "cidade": "Vitória",
+      "estado": "ES"
+    },
+    {
+      "codigo": "CGB",
+      "cidade": "Cuiabá",
+      "estado": "MT"
+    },
+    {
+      "codigo": "CGR",
+      "cidade": "Campo Grande",
+      "estado": "MS"
+    },
+    {
+      "codigo": "NAT",
+      "cidade": "Natal",
+      "estado": "RN"
+    },
+    {
+      "codigo": "JPA",
+      "cidade": "João Pessoa",
+      "estado": "PB"
+    },
+    {
+      "codigo": "MCZ",
+      "cidade": "Maceió",
+      "estado": "AL"
+    },
+    {
+      "codigo": "AJU",
+      "cidade": "Aracaju",
+      "estado": "SE"
+    },
+    {
+      "codigo": "THE",
+      "cidade": "Teresina",
+      "estado": "PI"
+    },
+    {
+      "codigo": "SLZ",
+      "cidade": "São Luís",
+      "estado": "MA"
+    },
+    {
+      "codigo": "PVH",
+      "cidade": "Porto Velho",
+      "estado": "RO"
+    },
+    {
+      "codigo": "RBR",
+      "cidade": "Rio Branco",
+      "estado": "AC"
+    },
+    {
+      "codigo": "BVB",
+      "cidade": "Boa Vista",
+      "estado": "RR"
+    },
+    {
+      "codigo": "MCP",
+      "cidade": "Macapá",
+      "estado": "AP"
+    },
+    {
+      "codigo": "PMW",
+      "cidade": "Palmas",
+      "estado": "TO"
+    }
+  ],
+  "voos": [
+    {
+      "origem": "GIG",
+      "destino": "CGH",
+      "duracao_min": 65,
+      "preco_reais": 320,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "CGH",
+      "destino": "GIG",
+      "duracao_min": 65,
+      "preco_reais": 320,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "SDU",
+      "destino": "CGH",
+      "duracao_min": 60,
+      "preco_reais": 300,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CGH",
+      "destino": "SDU",
+      "duracao_min": 60,
+      "preco_reais": 300,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "GIG",
+      "destino": "GRU",
+      "duracao_min": 70,
+      "preco_reais": 340,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "GIG",
+      "duracao_min": 70,
+      "preco_reais": 340,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "BSB",
+      "duracao_min": 95,
+      "preco_reais": 320,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BSB",
+      "destino": "GRU",
+      "duracao_min": 95,
+      "preco_reais": 320,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "GRU",
+      "destino": "CNF",
+      "duracao_min": 55,
+      "preco_reais": 280,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CNF",
+      "destino": "GRU",
+      "duracao_min": 55,
+      "preco_reais": 280,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "SSA",
+      "duracao_min": 150,
+      "preco_reais": 480,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "SSA",
+      "destino": "GRU",
+      "duracao_min": 150,
+      "preco_reais": 480,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "GRU",
+      "destino": "REC",
+      "duracao_min": 165,
+      "preco_reais": 520,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "REC",
+      "destino": "GRU",
+      "duracao_min": 165,
+      "preco_reais": 520,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "FOR",
+      "duracao_min": 180,
+      "preco_reais": 550,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "FOR",
+      "destino": "GRU",
+      "duracao_min": 180,
+      "preco_reais": 550,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "POA",
+      "duracao_min": 110,
+      "preco_reais": 350,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "POA",
+      "destino": "GRU",
+      "duracao_min": 110,
+      "preco_reais": 350,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "GRU",
+      "destino": "CWB",
+      "duracao_min": 60,
+      "preco_reais": 260,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CWB",
+      "destino": "GRU",
+      "duracao_min": 60,
+      "preco_reais": 260,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "FLN",
+      "duracao_min": 85,
+      "preco_reais": 300,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "FLN",
+      "destino": "GRU",
+      "duracao_min": 85,
+      "preco_reais": 300,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "BEL",
+      "duracao_min": 195,
+      "preco_reais": 890,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BEL",
+      "destino": "GRU",
+      "duracao_min": 195,
+      "preco_reais": 890,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "GRU",
+      "destino": "MAO",
+      "duracao_min": 210,
+      "preco_reais": 920,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "MAO",
+      "destino": "GRU",
+      "duracao_min": 210,
+      "preco_reais": 920,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "VIX",
+      "duracao_min": 70,
+      "preco_reais": 290,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "VIX",
+      "destino": "GRU",
+      "duracao_min": 70,
+      "preco_reais": 290,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "GRU",
+      "destino": "GYN",
+      "duracao_min": 90,
+      "preco_reais": 310,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "GYN",
+      "destino": "GRU",
+      "duracao_min": 90,
+      "preco_reais": 310,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "CGB",
+      "duracao_min": 130,
+      "preco_reais": 400,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CGB",
+      "destino": "GRU",
+      "duracao_min": 130,
+      "preco_reais": 400,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GRU",
+      "destino": "CGR",
+      "duracao_min": 120,
+      "preco_reais": 380,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "CGR",
+      "destino": "GRU",
+      "duracao_min": 120,
+      "preco_reais": 380,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "CGH",
+      "destino": "BSB",
+      "duracao_min": 100,
+      "preco_reais": 310,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "CGH",
+      "duracao_min": 100,
+      "preco_reais": 310,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CGH",
+      "destino": "CWB",
+      "duracao_min": 55,
+      "preco_reais": 240,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CWB",
+      "destino": "CGH",
+      "duracao_min": 55,
+      "preco_reais": 240,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CGH",
+      "destino": "POA",
+      "duracao_min": 105,
+      "preco_reais": 330,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "POA",
+      "destino": "CGH",
+      "duracao_min": 105,
+      "preco_reais": 330,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "CGH",
+      "destino": "CNF",
+      "duracao_min": 50,
+      "preco_reais": 230,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CNF",
+      "destino": "CGH",
+      "duracao_min": 50,
+      "preco_reais": 230,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "VCP",
+      "destino": "CNF",
+      "duracao_min": 55,
+      "preco_reais": 220,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CNF",
+      "destino": "VCP",
+      "duracao_min": 55,
+      "preco_reais": 220,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "VCP",
+      "destino": "BSB",
+      "duracao_min": 100,
+      "preco_reais": 290,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "VCP",
+      "duracao_min": 100,
+      "preco_reais": 290,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "VCP",
+      "destino": "REC",
+      "duracao_min": 170,
+      "preco_reais": 470,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "REC",
+      "destino": "VCP",
+      "duracao_min": 170,
+      "preco_reais": 470,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "VCP",
+      "destino": "SSA",
+      "duracao_min": 155,
+      "preco_reais": 430,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "SSA",
+      "destino": "VCP",
+      "duracao_min": 155,
+      "preco_reais": 430,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "SSA",
+      "duracao_min": 105,
+      "preco_reais": 350,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "SSA",
+      "destino": "BSB",
+      "duracao_min": 105,
+      "preco_reais": 350,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "REC",
+      "duracao_min": 140,
+      "preco_reais": 400,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "REC",
+      "destino": "BSB",
+      "duracao_min": 140,
+      "preco_reais": 400,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "FOR",
+      "duracao_min": 150,
+      "preco_reais": 420,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "FOR",
+      "destino": "BSB",
+      "duracao_min": 150,
+      "preco_reais": 420,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BSB",
+      "destino": "BEL",
+      "duracao_min": 110,
+      "preco_reais": 410,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BEL",
+      "destino": "BSB",
+      "duracao_min": 110,
+      "preco_reais": 410,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "MAO",
+      "duracao_min": 160,
+      "preco_reais": 480,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "MAO",
+      "destino": "BSB",
+      "duracao_min": 160,
+      "preco_reais": 480,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "POA",
+      "duracao_min": 140,
+      "preco_reais": 380,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "POA",
+      "destino": "BSB",
+      "duracao_min": 140,
+      "preco_reais": 380,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BSB",
+      "destino": "CNF",
+      "duracao_min": 60,
+      "preco_reais": 250,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CNF",
+      "destino": "BSB",
+      "duracao_min": 60,
+      "preco_reais": 250,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "CGB",
+      "duracao_min": 90,
+      "preco_reais": 300,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CGB",
+      "destino": "BSB",
+      "duracao_min": 90,
+      "preco_reais": 300,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "CGR",
+      "duracao_min": 95,
+      "preco_reais": 310,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "CGR",
+      "destino": "BSB",
+      "duracao_min": 95,
+      "preco_reais": 310,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BSB",
+      "destino": "PMW",
+      "duracao_min": 80,
+      "preco_reais": 280,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "PMW",
+      "destino": "BSB",
+      "duracao_min": 80,
+      "preco_reais": 280,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "GYN",
+      "duracao_min": 45,
+      "preco_reais": 200,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "GYN",
+      "destino": "BSB",
+      "duracao_min": 45,
+      "preco_reais": 200,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "SLZ",
+      "duracao_min": 130,
+      "preco_reais": 390,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "SLZ",
+      "destino": "BSB",
+      "duracao_min": 130,
+      "preco_reais": 390,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BSB",
+      "destino": "THE",
+      "duracao_min": 125,
+      "preco_reais": 370,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "THE",
+      "destino": "BSB",
+      "duracao_min": 125,
+      "preco_reais": 370,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "NAT",
+      "duracao_min": 150,
+      "preco_reais": 400,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "NAT",
+      "destino": "BSB",
+      "duracao_min": 150,
+      "preco_reais": 400,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "PVH",
+      "duracao_min": 150,
+      "preco_reais": 420,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "PVH",
+      "destino": "BSB",
+      "duracao_min": 150,
+      "preco_reais": 420,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "RBR",
+      "duracao_min": 175,
+      "preco_reais": 460,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "RBR",
+      "destino": "BSB",
+      "duracao_min": 175,
+      "preco_reais": 460,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BSB",
+      "destino": "BVB",
+      "duracao_min": 190,
+      "preco_reais": 480,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BVB",
+      "destino": "BSB",
+      "duracao_min": 190,
+      "preco_reais": 480,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "MCP",
+      "duracao_min": 165,
+      "preco_reais": 440,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "MCP",
+      "destino": "BSB",
+      "duracao_min": 165,
+      "preco_reais": 440,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "BSB",
+      "destino": "GIG",
+      "duracao_min": 100,
+      "preco_reais": 330,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "GIG",
+      "destino": "BSB",
+      "duracao_min": 100,
+      "preco_reais": 330,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "SSA",
+      "destino": "REC",
+      "duracao_min": 70,
+      "preco_reais": 220,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "REC",
+      "destino": "SSA",
+      "duracao_min": 70,
+      "preco_reais": 220,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "REC",
+      "destino": "NAT",
+      "duracao_min": 45,
+      "preco_reais": 180,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "NAT",
+      "destino": "REC",
+      "duracao_min": 45,
+      "preco_reais": 180,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "REC",
+      "destino": "JPA",
+      "duracao_min": 35,
+      "preco_reais": 150,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "JPA",
+      "destino": "REC",
+      "duracao_min": 35,
+      "preco_reais": 150,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "REC",
+      "destino": "MCZ",
+      "duracao_min": 50,
+      "preco_reais": 170,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "MCZ",
+      "destino": "REC",
+      "duracao_min": 50,
+      "preco_reais": 170,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "REC",
+      "destino": "AJU",
+      "duracao_min": 55,
+      "preco_reais": 185,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "AJU",
+      "destino": "REC",
+      "duracao_min": 55,
+      "preco_reais": 185,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "FOR",
+      "destino": "SLZ",
+      "duracao_min": 65,
+      "preco_reais": 210,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "SLZ",
+      "destino": "FOR",
+      "duracao_min": 65,
+      "preco_reais": 210,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "FOR",
+      "destino": "THE",
+      "duracao_min": 60,
+      "preco_reais": 195,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "THE",
+      "destino": "FOR",
+      "duracao_min": 60,
+      "preco_reais": 195,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "SSA",
+      "destino": "AJU",
+      "duracao_min": 45,
+      "preco_reais": 160,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "AJU",
+      "destino": "SSA",
+      "duracao_min": 45,
+      "preco_reais": 160,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "SSA",
+      "destino": "CNF",
+      "duracao_min": 100,
+      "preco_reais": 310,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CNF",
+      "destino": "SSA",
+      "duracao_min": 100,
+      "preco_reais": 310,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "REC",
+      "destino": "GIG",
+      "duracao_min": 155,
+      "preco_reais": 480,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GIG",
+      "destino": "REC",
+      "duracao_min": 155,
+      "preco_reais": 480,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "SSA",
+      "destino": "GIG",
+      "duracao_min": 130,
+      "preco_reais": 400,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "GIG",
+      "destino": "SSA",
+      "duracao_min": 130,
+      "preco_reais": 400,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "BEL",
+      "destino": "MAO",
+      "duracao_min": 95,
+      "preco_reais": 320,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "MAO",
+      "destino": "BEL",
+      "duracao_min": 95,
+      "preco_reais": 320,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BEL",
+      "destino": "SLZ",
+      "duracao_min": 75,
+      "preco_reais": 230,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "SLZ",
+      "destino": "BEL",
+      "duracao_min": 75,
+      "preco_reais": 230,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "MAO",
+      "destino": "PVH",
+      "duracao_min": 80,
+      "preco_reais": 270,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "PVH",
+      "destino": "MAO",
+      "duracao_min": 80,
+      "preco_reais": 270,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "MAO",
+      "destino": "BVB",
+      "duracao_min": 90,
+      "preco_reais": 290,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BVB",
+      "destino": "MAO",
+      "duracao_min": 90,
+      "preco_reais": 290,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "BEL",
+      "destino": "MCP",
+      "duracao_min": 55,
+      "preco_reais": 180,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "MCP",
+      "destino": "BEL",
+      "duracao_min": 55,
+      "preco_reais": 180,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "POA",
+      "destino": "CWB",
+      "duracao_min": 60,
+      "preco_reais": 220,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CWB",
+      "destino": "POA",
+      "duracao_min": 60,
+      "preco_reais": 220,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "POA",
+      "destino": "FLN",
+      "duracao_min": 55,
+      "preco_reais": 200,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "FLN",
+      "destino": "POA",
+      "duracao_min": 55,
+      "preco_reais": 200,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CWB",
+      "destino": "FLN",
+      "duracao_min": 45,
+      "preco_reais": 180,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "FLN",
+      "destino": "CWB",
+      "duracao_min": 45,
+      "preco_reais": 180,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "CWB",
+      "destino": "CNF",
+      "duracao_min": 80,
+      "preco_reais": 260,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "CNF",
+      "destino": "CWB",
+      "duracao_min": 80,
+      "preco_reais": 260,
+      "companhia": "LATAM"
+    },
+    {
+      "origem": "CNF",
+      "destino": "VIX",
+      "duracao_min": 55,
+      "preco_reais": 210,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "VIX",
+      "destino": "CNF",
+      "duracao_min": 55,
+      "preco_reais": 210,
+      "companhia": "AZUL"
+    },
+    {
+      "origem": "GIG",
+      "destino": "CNF",
+      "duracao_min": 50,
+      "preco_reais": 220,
+      "companhia": "GOL"
+    },
+    {
+      "origem": "CNF",
+      "destino": "GIG",
+      "duracao_min": 50,
+      "preco_reais": 220,
+      "companhia": "GOL"
+    }
+  ]
+}
