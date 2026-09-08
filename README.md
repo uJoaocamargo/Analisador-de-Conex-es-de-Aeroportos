@@ -58,8 +58,7 @@ def preco_com_desconto(preco_total, numero_escalas):
     return preco_total * (1 - desconto), desconto
 ```
 
-Isso gera um ponto de discussão interessante no relatório: **menos escalas
-não significa necessariamente mais barato** — BFS e Dijkstra-por-preço podem
+**menos escalas não significa necessariamente mais barato** — BFS e Dijkstra-por-preço podem
 devolver caminhos diferentes para o mesmo par origem-destino.
 
 
