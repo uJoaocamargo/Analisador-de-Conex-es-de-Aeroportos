@@ -62,45 +62,5 @@ Isso gera um ponto de discussão interessante no relatório: **menos escalas
 não significa necessariamente mais barato** — BFS e Dijkstra-por-preço podem
 devolver caminhos diferentes para o mesmo par origem-destino.
 
-## Como testar no VS Code
 
-1. **Pré-requisito**: ter Python 3 instalado (verifique com `python3 --version`
-   ou `python --version` no terminal). Se não tiver, baixe em python.org.
 
-2. **Extensão recomendada**: instale a extensão oficial **Python** (da
-   Microsoft) no VS Code, pela aba de Extensões (ícone de quadrados na
-   barra lateral, ou `Ctrl+Shift+X`).
-
-3. **Organize os arquivos**: coloque `analisador_aeroportos.py` e
-   `aeroportos_dados.json` **na mesma pasta**. O código lê o JSON pelo
-   caminho relativo, então o VS Code precisa estar com essa pasta aberta
-   (`Arquivo → Abrir Pasta...`).
-
-4. **Rodar o programa**:
-   - Abra `analisador_aeroportos.py`
-   - Clique no botão ▶ (Run Python File) no canto superior direito, **ou**
-   - Abra o terminal integrado (`` Ctrl+` ``) e rode:
-     ```bash
-     python3 analisador_aeroportos.py
-     ```
-     (no Windows, geralmente é só `python analisador_aeroportos.py`)
-
-5. **Usar o menu**: o programa pede um número de opção e depois os códigos
-   de origem/destino (ex: `GRU`, `BSB`, `REC`...). Use a opção **5** para
-   listar todos os códigos disponíveis.
-
-6. **Erro comum**: se aparecer
-   `FileNotFoundError: [Errno 2] No such file or directory: 'aeroportos_dados.json'`,
-   é porque o terminal não está na pasta certa. Rode `cd caminho/da/pasta`
-   antes, ou confira se abriu a pasta correta no VS Code (não só o arquivo
-   solto).
-
-Não é necessário instalar nenhuma biblioteca externa — o projeto usa apenas
-`json`, `heapq` e `collections`, que já vêm no Python padrão.
-
-## Possíveis extensões (para nota extra)
-
-- Detectar aeroportos sem conexão (componentes desconexos do grafo)
-- Filtrar rotas por companhia aérea (evita troca de bagagem na conexão)
-- Validar tempo mínimo de conexão entre voos
-- Limitar o número máximo de escalas na busca
