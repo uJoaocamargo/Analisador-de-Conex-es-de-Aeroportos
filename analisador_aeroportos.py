@@ -2,14 +2,6 @@
 Analisador de Conexões de Aeroportos
 Trabalho de Teoria de Grafos
 
-Modelagem:
-- Grafo DIRIGIDO
-- Vértices = aeroportos (código IATA)
-- Arestas = voos diretos, com peso (duração em minutos e preço em reais)
-
-Algoritmos usados:
-- BFS  -> rota com o MENOR NÚMERO DE ESCALAS (ignora peso)
-- Dijkstra -> MENOR CAMINHO por duração OU por preço (grafo com peso, sem pesos negativos)
 """
 
 import json
